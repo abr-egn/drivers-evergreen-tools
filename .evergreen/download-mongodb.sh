@@ -753,6 +753,7 @@ download_and_extract_mongosh ()
    chmod -R +x mongodb/bin
    echo "Installing MongoDB shell... done."
    echo "MongoDB shell version: $(./mongodb/bin/mongosh --version)"
+   pwd
    cd -
 }
 
